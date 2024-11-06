@@ -1,0 +1,14 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///NTSPBMS616DB
+    username: root
+    password: root
+    dbcp2:
+      max-total: 10
+      max-idle: 5
+      min-idle: 2
+    type: org.apache.commons.dbcp2.BasicDataSource

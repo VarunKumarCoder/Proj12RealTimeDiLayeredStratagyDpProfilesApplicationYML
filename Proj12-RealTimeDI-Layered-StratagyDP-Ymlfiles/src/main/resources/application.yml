@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Proj11-RealTimeDI-Layered-StratagyDP-Profiles
+  profiles:
+    active: dev
